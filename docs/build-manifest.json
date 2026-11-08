@@ -1,0 +1,120 @@
+{
+  "source": "Current saved notebook files; not re-executed by the site builder.",
+  "notebooks_unchanged": true,
+  "repo_url": "https://github.com/jontywu/asset-pricing-quest",
+  "paper_links": {
+    "papers/ff1993_primary_reference.pdf": "https://r.jordan.im/download/investing/fama1993.pdf",
+    "papers/ff2015_primary_reference.pdf": "https://tevgeniou.github.io/EquityRiskFactors/bibliography/FiveFactor.pdf",
+    "papers/crypto/LTW_working_paper_20190415.pdf": "https://cowles.yale.edu/sites/default/files/2022-10/LiuTsyvinskiWu2019%20COMMON%20RISK%20FACTORS.pdf"
+  },
+  "notebooks": [
+    {
+      "notebook": "START_HERE.ipynb",
+      "sha256": "b4067abe08e1da5ac70551b44794116b4c3e2d624ad3ccdb4b49372276ae05b2",
+      "cells": 5,
+      "code_cells": 2,
+      "executed_code_cells": 2,
+      "saved_error_outputs": 0,
+      "html": "START_HERE.html"
+    },
+    {
+      "notebook": "PRELUDE_beta_to_factor_zoo.ipynb",
+      "sha256": "15ac41049d4fe1a481707cebe1ccbb30ccf2b9b42e32865a90caf55918687a33",
+      "cells": 65,
+      "code_cells": 11,
+      "executed_code_cells": 11,
+      "saved_error_outputs": 0,
+      "html": "PRELUDE_beta_to_factor_zoo.html"
+    },
+    {
+      "notebook": "00_data_lab.ipynb",
+      "sha256": "e8401cbaf5c21ecc8e60a14e09247d919333e43cf397f3cb10391f5c423c0503",
+      "cells": 14,
+      "code_cells": 6,
+      "executed_code_cells": 6,
+      "saved_error_outputs": 0,
+      "html": "00_data_lab.html"
+    },
+    {
+      "notebook": "01_risk_and_capm.ipynb",
+      "sha256": "8077560926ed6ae6d81e234f00ed4bfb8eebee3b71f161b1cb9a2ea80b9946f4",
+      "cells": 12,
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_error_outputs": 0,
+      "html": "01_risk_and_capm.html"
+    },
+    {
+      "notebook": "02_portfolio_sorts.ipynb",
+      "sha256": "7477896eb10808c09838a3fda9ae70e002567f636d27df88591db22877089b45",
+      "cells": 13,
+      "code_cells": 6,
+      "executed_code_cells": 6,
+      "saved_error_outputs": 0,
+      "html": "02_portfolio_sorts.html"
+    },
+    {
+      "notebook": "03_capm_test.ipynb",
+      "sha256": "efe185611e9930fc05b45967149ff8d03fadaa34d9bab7ac52bce8d13f2b1952",
+      "cells": 15,
+      "code_cells": 6,
+      "executed_code_cells": 6,
+      "saved_error_outputs": 0,
+      "html": "03_capm_test.html"
+    },
+    {
+      "notebook": "04_build_ff3.ipynb",
+      "sha256": "115e783bb86a2ca41bbef695f275dd53c017965ef73887951f5456a319a6e699",
+      "cells": 11,
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_error_outputs": 0,
+      "html": "04_build_ff3.html"
+    },
+    {
+      "notebook": "05_ff3_replication.ipynb",
+      "sha256": "d170b43aecbc96f833fa12f717af318d3c0669c026aeecf99102fb92b3417424",
+      "cells": 14,
+      "code_cells": 6,
+      "executed_code_cells": 6,
+      "saved_error_outputs": 0,
+      "html": "05_ff3_replication.html"
+    },
+    {
+      "notebook": "06_fama_macbeth.ipynb",
+      "sha256": "ce7af493536aa0416793eec51211a113fc12e2146c40ee264a949a5212810cc5",
+      "cells": 14,
+      "code_cells": 7,
+      "executed_code_cells": 7,
+      "saved_error_outputs": 0,
+      "html": "06_fama_macbeth.html"
+    },
+    {
+      "notebook": "07_build_ff5.ipynb",
+      "sha256": "ba15f03306c81c8cc7b84246f44de95140281e04cbd8fb985201245b841645d4",
+      "cells": 19,
+      "code_cells": 9,
+      "executed_code_cells": 9,
+      "saved_error_outputs": 0,
+      "html": "07_build_ff5.html"
+    },
+    {
+      "notebook": "08_ff5_replication.ipynb",
+      "sha256": "333a091e23be30a656373122bc8c42e2b5186a57b90b6a72cea27430227437fa",
+      "cells": 20,
+      "code_cells": 11,
+      "executed_code_cells": 11,
+      "saved_error_outputs": 0,
+      "html": "08_ff5_replication.html"
+    },
+    {
+      "notebook": "09_out_of_sample.ipynb",
+      "sha256": "947d2ac8d1519524789758ec6901eac2cb448211755c9773d075b6572b1579c8",
+      "cells": 15,
+      "code_cells": 7,
+      "executed_code_cells": 7,
+      "saved_error_outputs": 0,
+      "html": "09_out_of_sample.html"
+    }
+  ]
+}

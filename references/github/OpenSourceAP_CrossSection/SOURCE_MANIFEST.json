@@ -1,0 +1,69 @@
+{
+  "repository": "OpenSourceAP/CrossSection",
+  "repository_url": "https://github.com/OpenSourceAP/CrossSection",
+  "commit": "9f053398c4995651d822e90d81526d0644c6f3e5",
+  "commit_url": "https://github.com/OpenSourceAP/CrossSection/commit/9f053398c4995651d822e90d81526d0644c6f3e5",
+  "commit_date_utc": "2026-10-27T20:27:06Z",
+  "retrieved_at_utc": "2026-11-08T02:58:33+00:00",
+  "license": "GPL-2.0",
+  "selection": "Reading-only subset, original file contents retained. No third-party code executed.",
+  "verification": "Repository, README, commit and selected code inspected using the GitHub connector before download.",
+  "files": [
+    {
+      "path": "README.md",
+      "source_url": "https://github.com/OpenSourceAP/CrossSection/blob/9f053398c4995651d822e90d81526d0644c6f3e5/README.md",
+      "download_url": "https://raw.githubusercontent.com/OpenSourceAP/CrossSection/9f053398c4995651d822e90d81526d0644c6f3e5/README.md",
+      "bytes": 7966,
+      "sha256": "9992115680ae23caabee22831111b891a984a6dde2edd5cdf2d5480848f61412"
+    },
+    {
+      "path": "LICENSE",
+      "source_url": "https://github.com/OpenSourceAP/CrossSection/blob/9f053398c4995651d822e90d81526d0644c6f3e5/LICENSE",
+      "download_url": "https://raw.githubusercontent.com/OpenSourceAP/CrossSection/9f053398c4995651d822e90d81526d0644c6f3e5/LICENSE",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "Signals/pyCode/Predictors/Size.py",
+      "source_url": "https://github.com/OpenSourceAP/CrossSection/blob/9f053398c4995651d822e90d81526d0644c6f3e5/Signals/pyCode/Predictors/Size.py",
+      "download_url": "https://raw.githubusercontent.com/OpenSourceAP/CrossSection/9f053398c4995651d822e90d81526d0644c6f3e5/Signals/pyCode/Predictors/Size.py",
+      "bytes": 1378,
+      "sha256": "e421cb3544d32a6f9bf481904c562d35c294d217774bd967ad2741dd2c7bf68a"
+    },
+    {
+      "path": "Signals/pyCode/Predictors/BMdec.py",
+      "source_url": "https://github.com/OpenSourceAP/CrossSection/blob/9f053398c4995651d822e90d81526d0644c6f3e5/Signals/pyCode/Predictors/BMdec.py",
+      "download_url": "https://raw.githubusercontent.com/OpenSourceAP/CrossSection/9f053398c4995651d822e90d81526d0644c6f3e5/Signals/pyCode/Predictors/BMdec.py",
+      "bytes": 5147,
+      "sha256": "b3e482a8f64989a0e835daf28eee32f0e8aa9ca189ad73bd5d24abb0634e8fbc"
+    },
+    {
+      "path": "Signals/pyCode/Predictors/OperProf.py",
+      "source_url": "https://github.com/OpenSourceAP/CrossSection/blob/9f053398c4995651d822e90d81526d0644c6f3e5/Signals/pyCode/Predictors/OperProf.py",
+      "download_url": "https://raw.githubusercontent.com/OpenSourceAP/CrossSection/9f053398c4995651d822e90d81526d0644c6f3e5/Signals/pyCode/Predictors/OperProf.py",
+      "bytes": 2025,
+      "sha256": "68bef53d98e13fea98dc282bdd2a97d0bb49beaf5b59ff123a83dd03dc0bf658"
+    },
+    {
+      "path": "Signals/pyCode/Predictors/AssetGrowth.py",
+      "source_url": "https://github.com/OpenSourceAP/CrossSection/blob/9f053398c4995651d822e90d81526d0644c6f3e5/Signals/pyCode/Predictors/AssetGrowth.py",
+      "download_url": "https://raw.githubusercontent.com/OpenSourceAP/CrossSection/9f053398c4995651d822e90d81526d0644c6f3e5/Signals/pyCode/Predictors/AssetGrowth.py",
+      "bytes": 2675,
+      "sha256": "aeec1050ae1e44f446a27e67df47a44075ea558f258da7cb71c2b261fe2aa2c1"
+    },
+    {
+      "path": "Portfolios/Code/01_PortfolioFunction.R",
+      "source_url": "https://github.com/OpenSourceAP/CrossSection/blob/9f053398c4995651d822e90d81526d0644c6f3e5/Portfolios/Code/01_PortfolioFunction.R",
+      "download_url": "https://raw.githubusercontent.com/OpenSourceAP/CrossSection/9f053398c4995651d822e90d81526d0644c6f3e5/Portfolios/Code/01_PortfolioFunction.R",
+      "bytes": 11220,
+      "sha256": "6286d071f6c6aea8071b8eb8f012c70ae3170212a911f4308916988f2ec14b5f"
+    },
+    {
+      "path": "Portfolios/Code/32_Predictor2x3Ports.R",
+      "source_url": "https://github.com/OpenSourceAP/CrossSection/blob/9f053398c4995651d822e90d81526d0644c6f3e5/Portfolios/Code/32_Predictor2x3Ports.R",
+      "download_url": "https://raw.githubusercontent.com/OpenSourceAP/CrossSection/9f053398c4995651d822e90d81526d0644c6f3e5/Portfolios/Code/32_Predictor2x3Ports.R",
+      "bytes": 6537,
+      "sha256": "68039b1bd13232faea4ded73ccbfa1b827df6ec0081e5922a2851155a8dc2615"
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-11-08T02:56:49+00:00",
+  "page_numbering": "pdf_pages_1based 是阅读器从1开始的页码；print_pages 是原刊印刷页码。",
+  "scope": "公开因子及组合收益的实证重算；不是从CRSP/Compustat个股重建，也不声称恢复原论文的数据版本。",
+  "papers": {
+    "ff1993": {
+      "title": "Common risk factors in the returns on stocks and bonds",
+      "authors": [
+        "Eugene F. Fama",
+        "Kenneth R. French"
+      ],
+      "year": 1993,
+      "doi": "10.1016/0304-405X(93)90023-5",
+      "pdf_url": "https://r.jordan.im/download/investing/fama1993.pdf",
+      "pdf_file": "ff1993_primary_reference.pdf",
+      "pdf_page_count": 54,
+      "sample": {
+        "start": "1963-07",
+        "end": "1991-12",
+        "monthly_n": 342
+      },
+      "full_paper_scope": "25个Size×B/M股票组合和7个债券组合；股票因子Mkt-RF/SMB/HML，债券因子TERM/DEF。",
+      "public_stock_track": "Table 2股票及三因子部分、Table 4/6股票部分、Table 9a(ii)/(iv)。",
+      "tables": [
+        {
+          "table": "1",
+          "print_pages": [
+            11
+          ],
+          "pdf_pages_1based": [
+            9
+          ],
+          "subject": "25个Size×B/M股票组合的规模、特征与构成描述。",
+          "data_kind": "年度特征汇总；不是平均收益表。",
+          "main_track": false
+        },
+        {
+          "table": "2",
+          "print_pages": [
+            14,
+            15
+          ],
+          "pdf_pages_1based": [
+            12,
+            13
+          ],
+          "subject": "因子收益、债券及25股票组合的描述统计。",
+          "data_kind": "股票组合为月超额收益，单位百分比；Mkt-RF已减RF，SMB/HML为多空收益。",
+          "main_track": true
+        },
+        {
+          "table": "4",
+          "print_pages": [
+            20
+          ],
+          "pdf_pages_1based": [
+            18
+          ],
+          "subject": "市场单因子回归的斜率、t统计量、调整R²、残差标准误。",
+          "data_kind": "被解释变量为月超额收益；只复现股票部分。",
+          "main_track": true
+        },
+        {
+          "table": "5",
+          "print_pages": [
+            22,
+            23
+          ],
+          "pdf_pages_1based": [
+            20,
+            21
+          ],
+          "subject": "仅SMB/HML两个解释变量的回归。",
+          "data_kind": "股票和债券超额收益；是理解市场因子作用的中间规格。",
+          "main_track": false
+        },
+        {
+          "table": "6",
+          "print_pages": [
+            24,
+            25
+          ],
+          "pdf_pages_1based": [
+            22,
+            23
+          ],
+          "subject": "Mkt-RF/SMB/HML回归斜率、t统计量、调整R²、残差标准误。",
+          "data_kind": "只复现25股票组合部分；本表不展示α矩阵。",
+          "main_track": true
+        },
+        {
+          "table": "9a",
+          "print_pages": [
+            36,
+            37
+          ],
+          "pdf_pages_1based": [
+            34,
+            35
+          ],
+          "subject": "25个股票组合的α及其t统计量；(ii)市场单因子，(iv)股票三因子。",
+          "data_kind": "α为百分比/月。",
+          "main_track": true
+        },
+        {
+          "table": "9c",
+          "print_pages": [
+            39
+          ],
+          "pdf_pages_1based": [
+            37
+          ],
+          "subject": "25股票+7债券共32回归截距的联合F检验。",
+          "data_kind": "Probability level为左尾累计概率，而非常规右尾p值。仅25股票GRS不能逐数对照。",
+          "main_track": false
+        },
+        {
+          "table": "11",
+          "print_pages": [
+            48,
+            49
+          ],
+          "pdf_pages_1based": [
+            46,
+            47
+          ],
+          "subject": "E/P及D/P排序组合的描述统计和单因子、三因子回归。",
+          "data_kind": "月超额收益；用于其他排序组合上的检验。",
+          "main_track": false
+        }
+      ],
+      "implementation_notes": [
+        "Table 4和Table 6脚注规定R²与残差标准误按自由度调整；对照rsquared_adj，不是普通rsquared。",
+        "Table 9a的α列在另一张表，不能把Table 6说成α表。",
+        "Table 9c的原样本L=32，包含债券；股票子集的GRS属于对应思想的扩展检验。",
+        "精确对照原文t值需另列常规OLS标准误；HAC结果应标成稳健性扩展。"
+      ],
+      "sha256": "f9df2e67a523c3cd695c920bc95e5331517e0a8631c52fa2c4079c6baa5ffb1b"
+    },
+    "ff2015": {
+      "title": "A five-factor asset pricing model",
+      "authors": [
+        "Eugene F. Fama",
+        "Kenneth R. French"
+      ],
+      "year": 2015,
+      "doi": "10.1016/j.jfineco.2014.10.010",
+      "pdf_url": "https://tevgeniou.github.io/EquityRiskFactors/bibliography/FiveFactor.pdf",
+      "pdf_file": "ff2015_primary_reference.pdf",
+      "pdf_page_count": 22,
+      "sample": {
+        "start": "1963-07",
+        "end": "2013-12",
+        "monthly_n": 606
+      },
+      "full_paper_scope": "3套25组合与3套32组合；检验2×3、2×2、2×2×2×2三种因子构造。公开主线可集中于2×3版本。",
+      "tables": [
+        {
+          "table": "1",
+          "print_pages": [
+            3
+          ],
+          "pdf_pages_1based": [
+            3
+          ],
+          "subject": "25个Size×B/M、Size×OP、Size×Inv组合平均收益。",
+          "data_kind": "月超额收益，百分比；Panel A/B/C对应三套组合。",
+          "main_track": true
+        },
+        {
+          "table": "2",
+          "print_pages": [
+            5
+          ],
+          "pdf_pages_1based": [
+            5
+          ],
+          "subject": "32个Size×B/M×OP、Size×B/M×Inv、Size×OP×Inv组合平均收益。",
+          "data_kind": "月超额收益，百分比；2×4×4排序。",
+          "main_track": true
+        },
+        {
+          "table": "3",
+          "print_pages": [
+            6
+          ],
+          "pdf_pages_1based": [
+            6
+          ],
+          "subject": "三种排序方案的因子构造与分位点。",
+          "data_kind": "构造公式；2×3版SMB为三套规模差的平均。",
+          "main_track": true
+        },
+        {
+          "table": "4",
+          "print_pages": [
+            7
+          ],
+          "pdf_pages_1based": [
+            7
+          ],
+          "subject": "因子均值、标准差、t统计量、相关矩阵。",
+          "data_kind": "均值/标准差为百分比/月；主线对照2×3列。",
+          "main_track": true
+        },
+        {
+          "table": "5",
+          "print_pages": [
+            9
+          ],
+          "pdf_pages_1based": [
+            9
+          ],
+          "subject": "3/4/5因子模型的GRS、平均绝对α及误差比例。",
+          "data_kind": "对各组测试资产的月超额收益回归；平均绝对α为百分比/月，GRS无量纲。",
+          "main_track": true,
+          "panels": {
+            "A": "25 Size-B/M",
+            "B": "25 Size-OP",
+            "C": "25 Size-Inv",
+            "D": "32 Size-B/M-OP",
+            "E": "32 Size-B/M-Inv",
+            "F": "32 Size-OP-Inv"
+          }
+        },
+        {
+          "table": "6",
+          "print_pages": [
+            11
+          ],
+          "pdf_pages_1based": [
+            11
+          ],
+          "subject": "每个因子对其他四因子的回归。",
+          "data_kind": "因子涵盖检验；只对市场使用Mkt-RF，其他多空因子不再减RF。",
+          "main_track": true
+        },
+        {
+          "table": "7",
+          "print_pages": [
+            13
+          ],
+          "pdf_pages_1based": [
+            13
+          ],
+          "subject": "25个Size×B/M组合三因子α及五因子系数。",
+          "data_kind": "Panel A三因子；Panel B五因子用HMLO。",
+          "main_track": true
+        },
+        {
+          "table": "8",
+          "print_pages": [
+            14
+          ],
+          "pdf_pages_1based": [
+            14
+          ],
+          "subject": "选定组合的B/M、OP、Inv特征均值。",
+          "data_kind": "特征比率而非收益。",
+          "main_track": false
+        },
+        {
+          "table": "9",
+          "print_pages": [
+            16
+          ],
+          "pdf_pages_1based": [
+            16
+          ],
+          "subject": "25个Size×OP组合三因子α及五因子系数。",
+          "data_kind": "Panel B五因子用HMLO。",
+          "main_track": true
+        },
+        {
+          "table": "10",
+          "print_pages": [
+            17
+          ],
+          "pdf_pages_1based": [
+            17
+          ],
+          "subject": "25个Size×Inv组合三因子α及五因子系数。",
+          "data_kind": "Panel B五因子用HMLO。",
+          "main_track": true
+        },
+        {
+          "table": "11",
+          "print_pages": [
+            18
+          ],
+          "pdf_pages_1based": [
+            18
+          ],
+          "subject": "32个Size×OP×Inv组合三因子α及五因子系数。",
+          "data_kind": "Panel B五因子用HMLO；表中按Small/Big面板、Inv行和OP列排列。",
+          "main_track": true
+        },
+        {
+          "table": "A1",
+          "print_pages": [
+            20
+          ],
+          "pdf_pages_1based": [
+            20
+          ],
+          "subject": "构造因子的基础组合平均收益、标准差与t统计量。",
+          "data_kind": "这里是原始组合收益而不是超额收益；可对照三套6组合的2×3列。",
+          "main_track": true
+        },
+        {
+          "table": "A2",
+          "print_pages": [
+            20
+          ],
+          "pdf_pages_1based": [
+            20
+          ],
+          "subject": "32个Size×B/M×OP组合五因子回归。",
+          "data_kind": "使用HMLO；与Table5 Panel D一致的测试组。",
+          "main_track": true
+        },
+        {
+          "table": "A3",
+          "print_pages": [
+            21
+          ],
+          "pdf_pages_1based": [
+            21
+          ],
+          "subject": "32个Size×B/M×Inv组合五因子回归。",
+          "data_kind": "使用HMLO；与Table5 Panel E一致的测试组。",
+          "main_track": true
+        },
+        {
+          "table": "A4",
+          "print_pages": [
+            22
+          ],
+          "pdf_pages_1based": [
+            22
+          ],
+          "subject": "32组合的B/M、OP、Inv特征均值。",
+          "data_kind": "特征比率而非收益。",
+          "main_track": false
+        }
+      ],
+      "implementation_notes": [
+        "Table 5按Table 3同一套因子的子集比较；对照2×3列时，三因子规格取FF5数据中的Mkt-RF/SMB/HML。独立经典FF3数据的SMB不同，须另标模型。",
+        "Table 7/9/10/11/A2/A3详细五因子表使用HMLO。对HML~const+Mkt-RF+SMB+RMW+CMA回归，HMLO=截距+残差；不能只用去均值残差。",
+        "HMLO重参数化不改变五因子α、残差与R²；HML/HMLO斜率相同，其他四因子斜率一般改变。",
+        "Table 5第一列是模型联合检验，不是单个因子的显著性检验；表中不直接给p值。",
+        "用2×3因子解释2×4×4测试组合是论文设计；不要为了32组合改成不存在的32组因子。",
+        "Table A1的组合收益口径与Table 1/2的超额收益口径不同。"
+      ],
+      "sha256": "5712e97e9d458b808b8a6ab2387a10327bdc0c6b516aaf33e5ac57baf042f779"
+    }
+  },
+  "numeric_anchors": [
+    {
+      "paper": "ff1993",
+      "table": "2",
+      "pdf_page_1based": 12,
+      "print_page": 14,
+      "metric": "mean_factor_return",
+      "key": "Mkt-RF",
+      "paper_value": 0.43,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked"
+    },
+    {
+      "paper": "ff1993",
+      "table": "2",
+      "pdf_page_1based": 12,
+      "print_page": 14,
+      "metric": "mean_factor_return",
+      "key": "SMB",
+      "paper_value": 0.27,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked"
+    },
+    {
+      "paper": "ff1993",
+      "table": "2",
+      "pdf_page_1based": 12,
+      "print_page": 14,
+      "metric": "mean_factor_return",
+      "key": "HML",
+      "paper_value": 0.4,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked"
+    },
+    {
+      "paper": "ff1993",
+      "table": "2",
+      "pdf_page_1based": 13,
+      "print_page": 15,
+      "metric": "mean_excess_return",
+      "key": "SMALL LoBM",
+      "paper_value": 0.39,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "weighting": "value_weighted"
+    },
+    {
+      "paper": "ff1993",
+      "table": "2",
+      "pdf_page_1based": 13,
+      "print_page": 15,
+      "metric": "mean_excess_return",
+      "key": "SMALL HiBM",
+      "paper_value": 1.01,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "weighting": "value_weighted"
+    },
+    {
+      "paper": "ff1993",
+      "table": "2",
+      "pdf_page_1based": 13,
+      "print_page": 15,
+      "metric": "mean_excess_return",
+      "key": "BIG LoBM",
+      "paper_value": 0.4,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "weighting": "value_weighted"
+    },
+    {
+      "paper": "ff1993",
+      "table": "2",
+      "pdf_page_1based": 13,
+      "print_page": 15,
+      "metric": "mean_excess_return",
+      "key": "BIG HiBM",
+      "paper_value": 0.59,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "weighting": "value_weighted"
+    },
+    {
+      "paper": "ff1993",
+      "table": "4",
+      "pdf_page_1based": 18,
+      "print_page": 20,
+      "metric": "market_beta",
+      "key": "SMALL LoBM",
+      "paper_value": 1.4,
+      "unit": "dimensionless",
+      "verification": "rendered PDF page visually checked",
+      "model": "CAPM"
+    },
+    {
+      "paper": "ff1993",
+      "table": "4",
+      "pdf_page_1based": 18,
+      "print_page": 20,
+      "metric": "adjusted_r_squared",
+      "key": "SMALL LoBM",
+      "paper_value": 0.67,
+      "unit": "dimensionless",
+      "verification": "rendered PDF page visually checked",
+      "model": "CAPM"
+    },
+    {
+      "paper": "ff1993",
+      "table": "6",
+      "pdf_page_1based": 22,
+      "print_page": 24,
+      "metric": "market_beta",
+      "key": "SMALL LoBM",
+      "paper_value": 1.04,
+      "unit": "dimensionless",
+      "verification": "rendered PDF page visually checked",
+      "model": "FF3_classic"
+    },
+    {
+      "paper": "ff1993",
+      "table": "6",
+      "pdf_page_1based": 23,
+      "print_page": 25,
+      "metric": "adjusted_r_squared",
+      "key": "SMALL LoBM",
+      "paper_value": 0.94,
+      "unit": "dimensionless",
+      "verification": "rendered PDF page visually checked",
+      "model": "FF3_classic"
+    },
+    {
+      "paper": "ff1993",
+      "table": "9a",
+      "pdf_page_1based": 34,
+      "print_page": 36,
+      "metric": "alpha",
+      "key": "SMALL LoBM",
+      "paper_value": -0.22,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "panel": "ii",
+      "model": "CAPM"
+    },
+    {
+      "paper": "ff1993",
+      "table": "9a",
+      "pdf_page_1based": 35,
+      "print_page": 37,
+      "metric": "alpha",
+      "key": "SMALL LoBM",
+      "paper_value": -0.34,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "panel": "iv",
+      "model": "FF3_classic"
+    },
+    {
+      "paper": "ff2015",
+      "table": "4",
+      "pdf_page_1based": 7,
+      "print_page": 7,
+      "metric": "mean_factor_return",
+      "key": "Mkt-RF",
+      "paper_value": 0.5,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "factor_sort": "2x3",
+      "panel": "A"
+    },
+    {
+      "paper": "ff2015",
+      "table": "4",
+      "pdf_page_1based": 7,
+      "print_page": 7,
+      "metric": "mean_factor_return",
+      "key": "SMB",
+      "paper_value": 0.29,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "factor_sort": "2x3",
+      "panel": "A"
+    },
+    {
+      "paper": "ff2015",
+      "table": "4",
+      "pdf_page_1based": 7,
+      "print_page": 7,
+      "metric": "mean_factor_return",
+      "key": "HML",
+      "paper_value": 0.37,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "factor_sort": "2x3",
+      "panel": "A"
+    },
+    {
+      "paper": "ff2015",
+      "table": "4",
+      "pdf_page_1based": 7,
+      "print_page": 7,
+      "metric": "mean_factor_return",
+      "key": "RMW",
+      "paper_value": 0.25,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "factor_sort": "2x3",
+      "panel": "A"
+    },
+    {
+      "paper": "ff2015",
+      "table": "4",
+      "pdf_page_1based": 7,
+      "print_page": 7,
+      "metric": "mean_factor_return",
+      "key": "CMA",
+      "paper_value": 0.33,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "factor_sort": "2x3",
+      "panel": "A"
+    },
+    {
+      "paper": "ff2015",
+      "table": "5",
+      "pdf_page_1based": 9,
+      "print_page": 9,
+      "metric": "GRS",
+      "key": "25 Size-B/M",
+      "paper_value": 3.62,
+      "unit": "dimensionless",
+      "verification": "rendered PDF page visually checked",
+      "panel": "A",
+      "model": "FF3_FF5_SMB",
+      "factor_sort": "2x3"
+    },
+    {
+      "paper": "ff2015",
+      "table": "5",
+      "pdf_page_1based": 9,
+      "print_page": 9,
+      "metric": "mean_absolute_alpha",
+      "key": "25 Size-B/M",
+      "paper_value": 0.102,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "panel": "A",
+      "model": "FF3_FF5_SMB",
+      "factor_sort": "2x3"
+    },
+    {
+      "paper": "ff2015",
+      "table": "5",
+      "pdf_page_1based": 9,
+      "print_page": 9,
+      "metric": "GRS",
+      "key": "25 Size-B/M",
+      "paper_value": 2.84,
+      "unit": "dimensionless",
+      "verification": "rendered PDF page visually checked",
+      "panel": "A",
+      "model": "FF5",
+      "factor_sort": "2x3"
+    },
+    {
+      "paper": "ff2015",
+      "table": "5",
+      "pdf_page_1based": 9,
+      "print_page": 9,
+      "metric": "mean_absolute_alpha",
+      "key": "25 Size-B/M",
+      "paper_value": 0.094,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "panel": "A",
+      "model": "FF5",
+      "factor_sort": "2x3"
+    },
+    {
+      "paper": "ff2015",
+      "table": "5",
+      "pdf_page_1based": 9,
+      "print_page": 9,
+      "metric": "GRS",
+      "key": "32 Size-OP-Inv",
+      "paper_value": 4.38,
+      "unit": "dimensionless",
+      "verification": "rendered PDF page visually checked",
+      "panel": "F",
+      "model": "FF3_FF5_SMB",
+      "factor_sort": "2x3"
+    },
+    {
+      "paper": "ff2015",
+      "table": "5",
+      "pdf_page_1based": 9,
+      "print_page": 9,
+      "metric": "mean_absolute_alpha",
+      "key": "32 Size-OP-Inv",
+      "paper_value": 0.182,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "panel": "F",
+      "model": "FF3_FF5_SMB",
+      "factor_sort": "2x3"
+    },
+    {
+      "paper": "ff2015",
+      "table": "5",
+      "pdf_page_1based": 9,
+      "print_page": 9,
+      "metric": "GRS",
+      "key": "32 Size-OP-Inv",
+      "paper_value": 2.92,
+      "unit": "dimensionless",
+      "verification": "rendered PDF page visually checked",
+      "panel": "F",
+      "model": "FF5",
+      "factor_sort": "2x3"
+    },
+    {
+      "paper": "ff2015",
+      "table": "5",
+      "pdf_page_1based": 9,
+      "print_page": 9,
+      "metric": "mean_absolute_alpha",
+      "key": "32 Size-OP-Inv",
+      "paper_value": 0.103,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "panel": "F",
+      "model": "FF5",
+      "factor_sort": "2x3"
+    },
+    {
+      "paper": "ff2015",
+      "table": "6",
+      "pdf_page_1based": 11,
+      "print_page": 11,
+      "metric": "spanning_alpha",
+      "key": "HML",
+      "paper_value": -0.04,
+      "unit": "percent_per_month",
+      "verification": "rendered PDF page visually checked",
+      "factor_sort": "2x3",
+      "rhs": [
+        "Mkt-RF",
+        "SMB",
+        "RMW",
+        "CMA"
+      ]
+    },
+    {
+      "paper": "ff2015",
+      "table": "6",
+      "pdf_page_1based": 11,
+      "print_page": 11,
+      "metric": "spanning_alpha_t",
+      "key": "HML",
+      "paper_value": -0.47,
+      "unit": "dimensionless",
+      "verification": "rendered PDF page visually checked",
+      "factor_sort": "2x3",
+      "standard_error": "conventional_OLS"
+    },
+    {
+      "paper": "ff2015",
+      "table": "6",
+      "pdf_page_1based": 11,
+      "print_page": 11,
+      "metric": "r_squared",
+      "key": "HML",
+      "paper_value": 0.51,
+      "unit": "dimensionless",
+      "verification": "rendered PDF page visually checked",
+      "factor_sort": "2x3"
+    }
+  ],
+  "comparison_policy": {
+    "purpose": "核对解析、样本、单位和模型规格；展示current_minus_paper差值与版本说明。",
+    "not_a_pass_fail_target": "数字是原文四舍五入值，不以当前数据逐项复现或获得显著性作为通关条件。",
+    "return_scale": "percent_per_month值除以100后才是decimal_per_month；GRS、R²、t统计量和斜率不除以100。",
+    "data_vintage_notes": [
+      "作者网站会重建历史收益；当前下载数据不等于1993或2015发表时的快照。",
+      "官网记载2018年OP分母加入少数股东权益；2015原文OP分母为账面权益。",
+      "官网自2025年起改用CRSP CIZ数据，月收益处理与旧FIZ有变化。"
+    ],
+    "official_revision_source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html"
+  }
+}

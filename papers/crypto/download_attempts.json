@@ -1,0 +1,35 @@
+[
+  {
+    "file": "LTW_JF2022_replication.zip",
+    "url": "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjofi.13119&file=jofi13119-sup-0002-ReplicationCode.zip",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "LTW_JF2022_replication.zip",
+    "url": "https://onlinelibrary.wiley.com/doi/suppl/10.1111/jofi.13119/supinfo/jofi13119-sup-0002-ReplicationCode.zip",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "LTW_author_revision_202106.pdf",
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3863741_code2230303.pdf?abstractid=3379131&mirid=1",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "LTW_JF2022.pdf",
+    "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.13119",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "LTW_working_paper_20190415.pdf",
+    "url": "https://cowles.yale.edu/sites/default/files/2022-10/LiuTsyvinskiWu2019%20COMMON%20RISK%20FACTORS.pdf",
+    "resolved_url": "https://cowles.yale.edu/sites/default/files/2022-10/LiuTsyvinskiWu2019%20COMMON%20RISK%20FACTORS.pdf",
+    "status": "downloaded",
+    "bytes": 548709,
+    "sha256": "3e5a8465395f800e6728eba62ed6696b4ffb94e1bc2824e98213d6231bb913e7",
+    "retrieved_at_utc": "2026-11-08T05:38:19+00:00"
+  }
+]

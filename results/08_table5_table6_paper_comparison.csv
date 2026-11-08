@@ -1,0 +1,12 @@
+﻿item,paper_value,current_value,current_minus_paper,unit
+Table 5A / FF3_FF5_SMB / GRS,3.62,3.572539715910488,-0.04746028408951197,dimensionless
+Table 5A / FF3_FF5_SMB / mean_absolute_alpha,0.102,0.09813939746716553,-0.0038606025328344618,percent_per_month
+Table 5A / FF5 / GRS,2.84,3.119858175315483,0.27985817531548296,dimensionless
+Table 5A / FF5 / mean_absolute_alpha,0.094,0.09385621305591582,-0.0001437869440841788,percent_per_month
+Table 5F / FF3_FF5_SMB / GRS,4.38,4.120602138404414,-0.25939786159558587,dimensionless
+Table 5F / FF3_FF5_SMB / mean_absolute_alpha,0.182,0.1710627331118309,-0.010937266888169095,percent_per_month
+Table 5F / FF5 / GRS,2.92,2.8536058784532488,-0.06639412154675117,dimensionless
+Table 5F / FF5 / mean_absolute_alpha,0.103,0.10383025017947732,0.0008302501794773265,percent_per_month
+Table 6 / HML / spanning_alpha,-0.04,-0.00789413900805522,0.03210586099194478,percent_per_month
+Table 6 / HML / spanning_alpha_t,-0.47,-0.09302978922651811,0.37697021077348186,dimensionless
+Table 6 / HML / r_squared,0.51,0.5010916841812441,-0.008908315818755952,dimensionless

@@ -1,0 +1,11 @@
+# Keep frozen data and notebooks byte-for-byte across Windows/Linux clones.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb -text
+data/raw/** -text
+data/crypto_raw/** -text
+references/github/** -text
+*.zip binary
+*.xlsx binary
+*.png binary
