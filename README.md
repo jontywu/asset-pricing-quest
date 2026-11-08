@@ -1,4 +1,6 @@
-# 资产定价研究者：Notebook 通关课程
+# 资产定价研究者：Notebook 通关课程 · asset-pricing-quest
+
+资产定价复现实验课：从 CAPM、Fama–French 三因子与五因子到因子 zoo 和加密资产。含自解释 Jupyter Notebook、公开数据与保留结果。
 
 [在线阅读课程](https://jontywu.github.io/asset-pricing-quest/) · [GitHub 仓库](https://github.com/jontywu/asset-pricing-quest) · [Notebook 入口](notebooks/START_HERE.ipynb) · [自解释导读](notebooks/PRELUDE_beta_to_factor_zoo.ipynb)
 
